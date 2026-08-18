@@ -1,0 +1,19 @@
+{
+  "name": "techcrunch-ollama-summarizer",
+  "version": "1.0.0",
+  "description": "TechCrunch News Agent - AI Summarizer with Lightpanda + Ollama",
+  "author": "Mahir Fatih",
+  "license": "proprietary",
+  "private": true,
+  "homepage": "http://mahirfatih.com",
+  "main": "default.js",
+  "type": "module",
+  "scripts": {
+    "start": "node default.js"
+  },
+  "dependencies": {
+    "agent-browser": "^0.34.0",
+    "ollama": "^0.6.3"
+  },
+  "keywords": []
+}
