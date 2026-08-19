@@ -44,6 +44,8 @@ async function askOllama(content) {
           min_p: CONFIG.MODEL.MIN_P,
           num_ctx: CONFIG.MODEL.NUM_CTX,
           num_predict: CONFIG.MODEL.NUM_PREDICT,
+          repeat_penalty: CONFIG.MODEL.REPETITION_PENALTY,
+          presence_penalty: CONFIG.MODEL.PRESENCE_PENALTY,
         },
         stream: CONFIG.OLLAMA.STREAM,
       }),
