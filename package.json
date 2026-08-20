@@ -1,7 +1,7 @@
 {
   "name": "techcrunch-ollama-summarizer",
   "version": "1.0.0",
-  "description": "TechCrunch News Agent — Summarizer with Lightpanda + Ollama",
+  "description": "TechCrunch News Agent — Turkish Summarizer with Lightpanda + Ollama",
   "author": "Mahir Fatih",
   "license": "proprietary",
   "private": true,
