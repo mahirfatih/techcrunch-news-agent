@@ -1,6 +1,6 @@
 # TechCrunch News Agent — Turkish AI Summarizer
 
-An autonomous, local LLM-driven browser automation agent that fetches the latest TechCrunch article, filters out ads/sponsors, and generates a Turkish summary using Ollama + Lightpanda.
+An autonomous, local LLM-driven browser automation agent that fetches the latest TechCrunch article and generates a Turkish summary using Ollama + Lightpanda.
 
 ---
 
@@ -15,8 +15,8 @@ An autonomous, local LLM-driven browser automation agent that fetches the latest
 
 ## ✨ Features
 
-- **Automatic Article Extraction:** Opens TechCrunch Latest, finds the first real news headline (filters ads/sponsors/"In Brief").
-- **Content Cleaning:** Removes promotional text, "Most Popular", and other noise from article content.
+- **Automatic Article Extraction:** Opens TechCrunch Latest and extracts the main article content.
+- **Content Cleaning:** Extracts clean article text from the page.
 - **Turkish Summarization:** Sends cleaned content to Ollama and returns a 3-4 sentence Turkish summary.
 - **Execution Metrics:** Displays start time, finish time, and total duration (minutes + seconds).
 - **Deterministic & Lightweight:** Runs with `temperature: 0.0` and uses Lightpanda for 9x faster performance with 16x less memory.
