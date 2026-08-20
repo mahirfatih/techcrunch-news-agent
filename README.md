@@ -1,4 +1,4 @@
-# TechCrunch News Agent — Turkish AI Summarizer
+# TechCrunch News Agent — Turkish Summarizer with Lightpanda + Ollama
 
 An autonomous, local LLM-driven browser automation agent that fetches the latest TechCrunch article and generates a Turkish summary using Ollama + Lightpanda.
 
